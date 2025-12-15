@@ -1,0 +1,39 @@
+# Compiled binaries
+harbor_binary
+harbor_binary_stripped
+
+# Object files
+*.o
+*.obj
+*.a
+*.so
+*.dylib
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.Python
+env/
+venv/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+*.out
+*.exe
+core
+
+# Test outputs
+/app/
